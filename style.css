@@ -1,32 +1,35 @@
 body {
   background-color: lightblue;
-  color: grey;
+  color: black;
   font-family: arial;
   font-size: 110%;
 }
-h1 {
-  background-color: red;
+p {
+  background-color: lightcyan;
+  color:green;
   font-size: 16px;
   text-decoration: underline;
 }
-li {
-  a:link {
-  color: purple;
-  background-color: lightblue;
-  text-decoration: none;
-   
+h3 {
+  background-color: red;
+  color:white;
+   font-size: 16px;
+border-bottom :  4px solid black;
+  
 }
-a:hover {
-  color: red;
-  background-color:purple;
+h2 {
+  background-color: grey;
+  color:red;
+  font-size: 16px;
   text-decoration: underline;
 }
-
-figcaption {
-  background-color: black;
+   
+a:link, a:visited {
+  background-color: transparent;
   color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
+ 
 }
+
+a:hover, a:active {
+  background-color: purple;
 }
